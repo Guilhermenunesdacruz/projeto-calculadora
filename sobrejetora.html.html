@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificar Função Sobrejetora</title>
+    <link rel="stylesheet" href="sobrejetora.css.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Verificar Função Sobrejetora</h1>
+        <div>
+            <label for="funcao">Insira a função f(x):</label>
+            <input type="text" id="funcao">
+        </div>
+        <div>
+            <label for="intervalo_alvo">Insira o intervalo alvo (separado por vírgulas):</label>
+            <input type="text" id="intervalo_alvo">
+        </div>
+        <button onclick="verificarSobrejetora()">Verificar</button>
+        <div id="resultado"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

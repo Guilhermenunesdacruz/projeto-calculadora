@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="calculator">
+      <input type="text" id="result" readonly>
+      <table>
+        <tr>
+          <td><button onclick="clearResult()">C</button></td>
+          <td><button onclick="backspace()">&larr;</button></td>
+          <td><button onclick="getResult('%')">%</button></td>
+          <td><button onclick="getResult('/')">&#247;</button></td>
+        </tr>
+        <tr>
+          <td><button onclick="getResult('7')">7</button></td>
+          <td><button onclick="getResult('8')">8</button></td>
+          <td><button onclick="getResult('9')">9</button></td>
+          <td><button onclick="getResult('*')">&times;</button></td>
+        </tr>
+        <tr>
+          <td><button onclick="getResult('4')">4</button></td>
+          <td><button onclick="getResult('5')">5</button></td>
+          <td><button onclick="getResult('6')">6</button></td>
+          <td><button onclick="getResult('-')">-</button></td>
+        </tr>
+        <tr>
+          <td><button onclick="getResult('1')">1</button></td>
+          <td><button onclick="getResult('2')">2</button></td>
+          <td><button onclick="getResult('3')">3</button></td>
+          <td><button onclick="getResult('+')">+</button></td>
+        </tr>
+        <tr>
+          <td><button onclick="getResult('0')">0</button></td>
+          <td><button onclick="getResult('.')">.</button></td>
+          <td><button onclick="getResult('**')">x<sup>2</sup></button></td>
+          <td><button onclick="calculateResult()">=</button></td>
+        </tr>
+        <tr>
+          <td><button> <a href="conjuntonumericos.html.html">Conj. Numericos </a> </button></td>
+          <td><button> <a href="funçãoquadratica.html.html">Função quadratica </a> </button></td>
+          <td><button> <a href="mdc.html.html">MDC </a> </button></td>
+          <td><button> <a href="mmc.html.html">MMC </a> </button></td>
+        </tr>
+        <tr>
+          <td><button> <a href="sobrejetora.html.html">Função sobrejetora </a> </button></td>
+          <td><button> <a href="teoria.html.html">Teoria. Dados </a> </button></td>
+        
+        </tr>
+      </table>
+    </div>
+    <script src="script.js"></script>
+    <script src="calculator.ts"></script>
+  </body>
+</html>
